@@ -45,7 +45,7 @@ export default function Signin() {
           const formData = {email: Inemail, password: InPass };
           try {
             const response = await axios.post(
-              "https://movie-mate-1csd.onrender.comapi/api/auth/login",
+              "https://movie-mate-1csd.onrender.com/api/auth/login",
               formData,
               {
                 headers: {
