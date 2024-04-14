@@ -23,7 +23,7 @@ export default function HeaderComp() {
   const handleSignOut = async () => {
     try {
       const response = await axios.post(
-        "https://movie-mate-1csd.onrender.com//api/auth/logout"
+        "https://movie-mate-1csd.onrender.com/api/auth/logout"
       );
       navigate("/");
       localStorage.removeItem("token");
