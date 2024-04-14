@@ -8,9 +8,9 @@ import { dbConnection } from "../database/db.mjs";
 const app = express();
 dotenv.config();
 const PORT = process.env.PORT || 5001;
-// "https://movie-mate-frontend.vercel.app",
+
 let corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: ["https://movie-mate-frontend.vercel.app"],
   methods: "GET, POST, PUT, DELETE, PATCH",
   credentials: true,
 };
