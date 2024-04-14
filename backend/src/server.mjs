@@ -10,7 +10,7 @@ dotenv.config();
 const PORT = process.env.PORT || 5001;
 
 let corsOptions = {
-  origin: ["https://movie-mate-frontend.vercel.app"],
+  origin: ["https://movie-mate-frontend.vercel.app","http://localhost:3000"],
   methods: "GET, POST, PUT, DELETE, PATCH",
   credentials: true,
 };

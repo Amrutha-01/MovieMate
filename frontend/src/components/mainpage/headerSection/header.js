@@ -60,7 +60,7 @@ export default function HeaderComp() {
   };
 
   const formatResult = (item) => {
-    console.log(item);
+    // console.log(item);
     return (
       <div className="result-wrapper">
         <span className="result-span">id: {item.id}</span>

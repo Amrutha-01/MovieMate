@@ -20,6 +20,7 @@ export function Recommandations() {
           }
         );
         setFavorites(response.data.favorites);
+        // console.log(response.data.favorites);
       } catch (err) {
         console.log("Something went wrong", err);
       }

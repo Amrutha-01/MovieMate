@@ -43,7 +43,7 @@ const MovieList = () => {
   console.log(recommand)
   return (
     <div className="movielist" style={{marginTop:'100px'}}>
-      {recommand.length>0 && <MovieCarousel title="Recommanded for you" data={recommand} tv="false" />}
+      {recommand.length>0 && <MovieCarousel title="Recommended for you" data={recommand} tv="false" />}
       <MovieCarousel title="Top Rated" data={topRated} tv="flase"/>
       <MovieCarousel title="Now Playing" data={nowPlaying} tv="flase"/>
       <MovieCarousel title="Upcoming" data={upcoming} tv="flase"/>
