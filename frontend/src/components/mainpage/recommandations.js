@@ -12,7 +12,7 @@ export function Recommandations() {
     async function getFavorites() {
       try {
         const response = await axios.get(
-          `https://movie-mate-taupe.vercel.app/api/auth/favorites?userId=${user._id}`,
+          `https://movie-mate-1csd.onrender.comapi/api/auth/favorites?userId=${user._id}`,
           {
             headers: {
               "Content-Type": "application/json",
