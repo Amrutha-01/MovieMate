@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+  #icon {
+    height: 9vh;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  #search-bar {
+    width: 50%;
+    height: 10%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /* background-color: #0c0c0c; */
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  #search-icon {
+    margin: 2%;
+    padding-left: 65%;
+    margin-top: 45%;
+  }
+}
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  background: #fff;
+}
+
+.profile-icon {
+  position: relative;
+  /* left: 58%; */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchBar {
+  width: 300px;
+}
+@media (max-width:510px) {
+  .searchBar{
+    width:200px;
+  }
+}
+@media (max-width:380px) {
+  .searchBar{
+    width:150px;
+  }
+}

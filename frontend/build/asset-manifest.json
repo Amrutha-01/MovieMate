@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.359f79df.css",
+    "main.js": "/static/js/main.739c775c.js",
+    "static/media/heroimg2.jpg": "/static/media/heroimg2.0275670efee59f3bc4aa.jpg",
+    "static/media/discoverMovies.jpg": "/static/media/discoverMovies.fcdbd7e35dcfbb846eb6.jpg",
+    "static/media/MovieMateLogo.png": "/static/media/MovieMateLogo.8f31599883c30a7cc340.png",
+    "static/media/genres.jpg": "/static/media/genres.0eab3cd369ea981af2a1.jpg",
+    "static/media/checklist.avif": "/static/media/checklist.f76f27982b2023c164a7.avif",
+    "index.html": "/index.html",
+    "main.359f79df.css.map": "/static/css/main.359f79df.css.map",
+    "main.739c775c.js.map": "/static/js/main.739c775c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.359f79df.css",
+    "static/js/main.739c775c.js"
+  ]
+}

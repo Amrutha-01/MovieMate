@@ -1,0 +1,22 @@
+.card img{
+    height:10vh;
+    width:10%;
+    border-radius: 50%;
+}
+.card{
+    width:400px;
+    background-color: rgba(112, 110, 112, 0.2);
+    color: white;
+    border-radius: 10px;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    padding-bottom: 0%;
+    margin: 5% 10%;
+    margin-bottom: 0%;
+}
+.card:hover {
+    transform: scale(1.02); 
+}

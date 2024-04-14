@@ -1,0 +1,34 @@
+.mainpage,body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(26, 26, 26);
+  /* background-image: url('https://i0.wp.com/backgroundabstract.com/wp-content/uploads/edd/2022/04/vecteezy_Lavender-Lilac-Background-2_ir1020__generated-e1655987350100.jpg?resize=1000%2C750&ssl=1'); */
+  /* background-image: url("https://th.bing.com/th/id/OIG.WxC1FVv98fBcmVW_Dtyv?pid=ImgGn"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+html,
+body {
+  min-height: 100%;
+  /* background-color: black; */
+  /* https://th.bing.com/th/id/OIG.WxC1FVv98fBcmVW_Dtyv?pid=ImgGn*/
+}
+
+
+/* 
+
+.poster-info,
+.details-info {
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+}
+.poster-desc,
+.details-desc {
+  font-size: large;
+  max-width: 40vw; 
+  padding-left: 0%;
+  font-style: italic;
+  text-align: justify;
+} */

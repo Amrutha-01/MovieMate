@@ -1,0 +1,7 @@
+.navbar{
+    padding: 1.5%;
+    display: flex;
+}
+#icon{
+    height: 7vh;
+}
