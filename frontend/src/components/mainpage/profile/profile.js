@@ -24,7 +24,7 @@ const Profile = () => {
     const fetchProfile = async () => {
       try {
         const response = await axios.get(
-          "https://localhost:5000/api/auth/userData",
+          "https://movie-mate-1csd.onrender.com/api/auth/userData",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -48,7 +48,7 @@ const Profile = () => {
 
   const removeFromWatchlist = async (movieId) => {
     const response = await axios.post(
-      "https://localhost:5000/api/auth/watchlistRm",
+      "https://movie-mate-1csd.onrender.com/api/auth/watchlistRm",
       { _id: user._id, movieId: movieId },
       {
         headers: {
@@ -60,7 +60,7 @@ const Profile = () => {
   };
   const removeFromFavorites = async (movieId) => {
     const response = await axios.post(
-      "https://localhost:5000/api/auth/favoritesRm",
+      "https://movie-mate-1csd.onrender.com/api/auth/favoritesRm",
       { _id: user._id, movieId: movieId },
       {
         headers: {

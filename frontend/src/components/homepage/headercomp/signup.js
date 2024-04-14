@@ -13,8 +13,10 @@ export default function Signup() {
   const validationSchema = Yup.object({
     fullName: Yup.string()
       .required("This field is required")
-      .matches(/^[A-Za-z]+(?:\s+[A-Za-z0-9]+)*$/
-      , "Name must start with a letter"),
+      .matches(
+        /^[A-Za-z]+(?:\s+[A-Za-z0-9]+)*$/,
+        "Name must start with a letter"
+      ),
     email: Yup.string()
       .email("Invalid email")
       .required("This field is required"),
@@ -40,8 +42,8 @@ export default function Signup() {
           const formData = { fullName: fullName, email: email, password: pass };
           try {
             const response = await axios.post(
-              "https://localhost:5000/api/auth/signup",
-              formData, 
+              "https://movie-mate-1csd.onrender.com/api/auth/signup",
+              formData,
               {
                 headers: {
                   "Content-Type": "application/json",
@@ -49,6 +51,7 @@ export default function Signup() {
               }
             );
             console.log("SignUp successful", response.data);
+            localStorage.setItem("token", response.data.token);
             navigate("/mainPage");
           } catch (err) {
             console.log("Error signing up", err);
@@ -58,7 +61,7 @@ export default function Signup() {
         }
       },
     });
-  
+
   return (
     <form className="signup" onSubmit={handleSubmit} name="signup">
       <h4>Sign Up Now</h4>

@@ -110,7 +110,7 @@ export default function DetailsPage({ type }) {
     try {
       if (updatedIsLiked) {
         const response = await axios.post(
-          "https://localhost:5000/api/auth/favorites",
+          "https://movie-mate-1csd.onrender.com/api/auth/favorites",
           {
             _id: user._id,
             movieId: id,
@@ -126,7 +126,7 @@ export default function DetailsPage({ type }) {
         console.log("Added to favorites", response.data);
       } else {
         const response = await axios.post(
-          "https://localhost:5000/api/auth/favoritesRm",
+          "https://movie-mate-1csd.onrender.com/api/auth/favoritesRm",
           {
             _id: user._id,
             movieId: id,
@@ -164,7 +164,7 @@ export default function DetailsPage({ type }) {
     try {
       if (updatedIsClicked) {
         const response = await axios.post(
-          "https://localhost:5000/api/auth/watchlist",
+          "https://movie-mate-1csd.onrender.com/api/auth/watchlist",
           {
             _id: user._id,
             movieId: id,
@@ -180,7 +180,7 @@ export default function DetailsPage({ type }) {
         console.log("Added to watchlist", response.data);
       } else {
         const response = await axios.post(
-          "https://localhost:5000/api/auth/watchlistRm",
+          "https://movie-mate-1csd.onrender.com/api/auth/watchlistRm",
           { _id: user._id, movieId: id, type: type },
           {
             headers: {

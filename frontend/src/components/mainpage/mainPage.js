@@ -20,7 +20,7 @@ export default function MainPage() {
     const fetchProfile = async () => {
       try {
         const response = await axios.get(
-          "https://localhost:5000/api/auth/userData",
+          "https://movie-mate-1csd.onrender.com/api/auth/userData",
           {
             headers: {
               Authorization: `Bearer ${token}`,

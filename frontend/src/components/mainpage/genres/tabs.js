@@ -173,9 +173,9 @@ export default function VerticalTabs() {
           return { ...genre, data: results };
         })
       );
-      console.log(updatedGenres);
+      // console.log(updatedGenres);
       setGenres(updatedGenres);
-      console.log(genres);
+      // console.log(genres);
     } catch (error) {
       console.error("Error fetching genres data:", error);
     }
