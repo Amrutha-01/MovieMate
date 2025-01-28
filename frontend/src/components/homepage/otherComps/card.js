@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Card({src, title, desc}) {
   return (
-    <div className="card">
+    <div className="card" style={{width:"fitContent"}}>
       <img src={src} />
       <h4>{title}</h4>
       <p>{desc}</p>
