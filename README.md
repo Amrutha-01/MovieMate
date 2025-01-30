@@ -25,3 +25,7 @@ Search: Quickly find movies using the search feature.
     * Run `npm start`
   
 
+
+
+https://github.com/user-attachments/assets/8a10e64b-f50d-4af8-9362-9bb67995fba1
+
